@@ -1,4 +1,4 @@
-FROM ppc64le/golang:1.7.3
+FROM ppc64le/golang:1.8.1
 MAINTAINER Tom Denham <tom@projectcalico.org>
 
 # Install su-exec for use in the entrypoint.sh (so processes run as the right user)
